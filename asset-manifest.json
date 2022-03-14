@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.566abd9f.css",
+    "main.js": "/react-portfolio/static/js/main.7cdfe381.js",
+    "static/media/Standing on the edge of a boat.mp4": "/react-portfolio/static/media/Standing on the edge of a boat.63ad3f50b1744909ae7f.mp4",
+    "static/media/logo.png": "/react-portfolio/static/media/logo.7ed42caf1761f7568a18.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.566abd9f.css.map": "/react-portfolio/static/css/main.566abd9f.css.map",
+    "main.7cdfe381.js.map": "/react-portfolio/static/js/main.7cdfe381.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.566abd9f.css",
+    "static/js/main.7cdfe381.js"
+  ]
+}
