@@ -14,10 +14,10 @@ const Home = () => {
           src={Video}
         ></video>
       </div>
-      <div className="top-[35%] left-[20vw] right-[20vw] bg-[#0a192f] mx-auto px-8 justify-center absolute  ">
+      <div className="z-10 top-[40vh]  left-[10vw] right-[10vw] sm:top-[35%] sm:left-[20vw] sm:right-[20vw] bg-[#0a192f] mx-auto px-8 justify-center absolute ">
         <p className="text-pink-600">Hi, my nickname is</p>
-        <h1 className="text-gray-100 text-4xl sm:text-7xl">CodingBDX</h1>
-        <h2 className="text-gray-300 text-4xl sm:text-7xl">
+        <h1 className="text-gray-100 text-2xl sm:text-7xl">CodingBDX</h1>
+        <h2 className="text-gray-300 text-2xl sm:text-7xl">
           i'm Full Stack Developper
         </h2>
         <p className="text-gray-200 py-4 max-w-[700px]">

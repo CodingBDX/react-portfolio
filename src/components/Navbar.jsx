@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {FaAddressBook, FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt={Logo} style={{ width: "50px" }} />
+    <div className=" fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+
+      <div className="text-pink-500 flex text-2xl">
+<FaAddressBook className="pr-2 text-4xl"/>        CodingBDX
       </div>
 
       <ul className="hidden md:flex ">
@@ -21,21 +21,22 @@ const Navbar = () => {
         <li className="py-6 text-2xl">contact</li>
       </ul>
 
-      <div onClick={handleClick} className=" md:hidden z-10 ">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className="z-10 md:hidden  ">
+        {!nav ? <FaBars /> : <FaTimes/>}
       </div>
 
       <ul
         className={
           !nav
-            ? "hidden "
-            : " absolute  z-5 top-0 left-0 w-full h-screen bg-[#0a192F] flex flex-col justify-center items-center"
+            ? "hidden"
+            : "absolute z-10 top-0 left-0 w-full h-screen bg-[#0a192F] flex flex-col justify-center items-center"
         }
       >
-        <li>home</li>
+          <li>home</li>
         <li>about</li>
         <li>experiences</li>
         <li>contact</li>
+        
       </ul>
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
