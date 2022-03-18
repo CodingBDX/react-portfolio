@@ -16,7 +16,7 @@ const About = () => {
             <p>Hey i'm Antony from france, thank for look my Portfolio</p>
           </div>
           <div>
-            <p className="text-gray-100 sm:text-2xl">
+            <p className="text-gray-100 sm:text-2xl font-extrabold font-bhutuka">
               i'm passionate into coding since 20 years, coding from amstrad and
               Ibm
             </p>

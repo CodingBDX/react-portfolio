@@ -11,12 +11,12 @@ import REACT from "../assets/react.png";
 const Skills = () => {
   return (
     <div name="skills" className=" bg-[#0a192f] text-gray-300">
-      <div className="mx-auto max-w-[1000px] p-4 flex flex-col justify-center w-full h-full">
+      <div className="mx-auto max-w-[1000px]  p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className=" text-4xl font-bold inline border-b-4  border-pink-600 ">
             Experiences
           </p>
-          <p className="m-2">
+          <p className="m-2 font-extrabold font-bhutuka">
             / / technologie i use for my differente projects
           </p>
         </div>
